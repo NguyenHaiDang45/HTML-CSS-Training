@@ -1,6 +1,6 @@
-img, body {
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     border: 0;
 }
 
@@ -8,10 +8,10 @@ body {
     background-color: #e3eaf8;
 }
 
-img {
-    height: 80px;
+.corner {
     max-width: 100%;
     display: block;
+    border-radius: 12px;
 }
 
 header {
@@ -21,19 +21,26 @@ header {
     padding: 1% 2%;
 }
 
+header a {
+    height: 80px;
+    max-width: 100%;
+    display: block;
+}
+
 nav {
     display: flex;
     background-color: #1d396d;
     margin-bottom: 1.5em;
+    position: -webkit-sticky;
 }
 
 nav ul {
-    padding: 0 100px;
+    padding: 0 50px;
     list-style-type: none;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 1.5em;
 }
 
@@ -47,19 +54,11 @@ nav a:hover {
     color: #8bed8d;
 }
 
-main {
-    padding: 1em;
-}
-
-p {
-    font-size: 17px;
-    line-height: 1.5;
-}
-
 footer {
     color: #ffffff;
     background-color: #1d396d;
     padding: 1% 0;
+    width: 100%;
 }
 
 footer p {
