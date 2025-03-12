@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    height: 800px;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    background-color: rgb(235, 206, 235);
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 3.25em;
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 25px;
+}
+
+.box div {
+    width: 300px;
+}
