@@ -1,0 +1,32 @@
+@-webkit-keyframes color {
+    from { background-color: #fbdae9; }
+    to { background-color: #660b32; }
+}
+
+@keyframes color {
+    from { background-color: #fbdae9; }
+    to { background-color: #660b32; }
+}
+
+.square {
+    margin-left: 50px;
+    min-height: 100px;
+    width: 100px;
+    -webkit-animation-name: color;
+    animation-name: color;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    transition: 2s;
+}
+
+.square:hover {
+    /* transform: translate(100px); */
+    /* transform: rotate(45deg); */
+    transform: scale(0.8);
+}
+
+#btn {
+    padding: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+}
